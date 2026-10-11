@@ -6,6 +6,8 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![PostgreSQL 16](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
 ![Docker Compose](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+[![Ruff](https://github.com/MySelfZalin/tbank-sandbox/actions/workflows/ruff.yml/badge.svg)](https://github.com/MySelfZalin/tbank-sandbox/actions/workflows/ruff.yml)
+[![pytest](https://github.com/MySelfZalin/tbank-sandbox/actions/workflows/pytest.yml/badge.svg)](https://github.com/MySelfZalin/tbank-sandbox/actions/workflows/pytest.yml)
 
 ![Sandbox Portfolio: пример поиска акции через API](docs/assets/hero.png)
 
@@ -315,6 +317,10 @@ uv run --frozen ruff format --check .
 после перезапуска, пагинацию операций, отсутствие дублей, атомарность снимка,
 котировки и денежные значения. Миграции на тестовую базу применяются автоматически.
 Перед тестами её таблицы очищаются: используй только отдельную базу с именем `*_test`.
+
+GitHub Actions запускает Ruff и pytest при push и pull request. Для тестов
+поднимается отдельная PostgreSQL 16; токен T-Invest в CI не используется.
+Результат проверок виден в бейджах в начале README.
 
 ## Ограничения
 
