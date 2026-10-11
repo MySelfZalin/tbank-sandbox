@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620" role="img" aria-labelledby="title description">
+  <title id="title">Sandbox Portfolio — пет-проект на Python</title>
+  <desc id="description">Обложка Python backend для T-Invest API. Справа показан демонстрационный запрос GET /instruments/search?query=SBER и фрагмент JSON-ответа. Данные иллюстративные.</desc>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#1f303e" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="620" fill="#0c141e"/>
+  <rect x="672" width="928" height="620" fill="url(#grid)" opacity="0.34"/>
+  <path d="M674 0V620" stroke="#203240" stroke-width="1" opacity="0.45"/>
+  <path d="M0 619H1600" stroke="#30414c" stroke-width="2"/>
+
+  <rect x="80" y="80" width="80" height="80" rx="20" fill="#22271f" stroke="#4b4730" stroke-width="1.5"/>
+  <text x="120" y="133" text-anchor="middle" font-family="'JetBrainsMono Nerd Font', 'DejaVu Sans Mono', monospace" font-size="38" font-weight="500" fill="#ffd769">{}</text>
+  <text x="184" y="127" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="19" font-weight="600" letter-spacing="2.2" fill="#a5b3c0">PYTHON BACKEND</text>
+
+  <g font-family="'Noto Sans', 'DejaVu Sans', sans-serif" fill="#f3f6fa" font-size="82" font-weight="700" letter-spacing="-2.8">
+    <text x="78" y="258">Sandbox</text>
+    <text x="78" y="350">Portfolio</text>
+  </g>
+  <text x="80" y="401" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="26" fill="#b7c4d0">Пет-проект на Python · T-Invest API</text>
+
+  <path d="M80 452H580" stroke="#263947" stroke-width="1.5"/>
+  <circle cx="88" cy="491" r="5" fill="#74d8c8"/>
+  <text x="108" y="499" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="22" font-weight="500" fill="#a3b8c6">T-Invest sandbox</text>
+
+  <rect x="720" y="88" width="800" height="448" rx="22" fill="#071019" opacity="0.65"/>
+  <rect x="720" y="80" width="800" height="448" rx="22" fill="#111d29" stroke="#344754" stroke-width="1.5"/>
+  <path d="M720 141H1520" stroke="#344754" stroke-width="1.5"/>
+  <circle cx="754" cy="111" r="5" fill="#6b7a86"/>
+  <circle cx="773" cy="111" r="5" fill="#53616e"/>
+  <circle cx="792" cy="111" r="5" fill="#3c4c59"/>
+  <text x="818" y="118" font-family="'JetBrainsMono Nerd Font', 'DejaVu Sans Mono', monospace" font-size="19" fill="#91a4b5">API demo</text>
+  <text x="1484" y="119" text-anchor="end" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="21" font-weight="500" fill="#c9d6e0">Фрагмент ответа</text>
+
+  <rect x="752" y="166" width="66" height="38" rx="8" fill="#ffd769"/>
+  <text x="785" y="192" text-anchor="middle" font-family="'JetBrainsMono Nerd Font', 'DejaVu Sans Mono', monospace" font-size="22" font-weight="700" fill="#19222a">GET</text>
+  <text x="836" y="192" font-family="'JetBrainsMono Nerd Font', 'DejaVu Sans Mono', monospace" font-size="24" fill="#e7edf3">/instruments/search?query=SBER</text>
+  <path d="M752 224H1488" stroke="#293e4e" stroke-width="1"/>
+
+  <g font-family="'JetBrainsMono Nerd Font', 'DejaVu Sans Mono', monospace" font-size="26" fill="#bbcbd8">
+    <text x="752" y="270">{</text>
+    <text x="779" y="311"><tspan fill="#dce6ee">"ticker"</tspan><tspan>: </tspan><tspan fill="#74d8c8">"SBER"</tspan><tspan>,</tspan></text>
+    <text x="779" y="352"><tspan fill="#dce6ee">"currency"</tspan><tspan>: </tspan><tspan fill="#74d8c8">"rub"</tspan><tspan>,</tspan></text>
+    <text x="779" y="393"><tspan fill="#dce6ee">"last_price"</tspan><tspan>: </tspan><tspan fill="#74d8c8">"286.01"</tspan><tspan>,</tspan></text>
+    <text x="779" y="434"><tspan fill="#dce6ee">"quote_status"</tspan><tspan>: </tspan><tspan fill="#74d8c8">"available"</tspan></text>
+    <text x="752" y="475">}</text>
+  </g>
+
+  <text x="752" y="569" font-family="'Noto Sans', 'DejaVu Sans', sans-serif" font-size="19" fill="#7e95a6">Демонстрационные данные</text>
+</svg>
